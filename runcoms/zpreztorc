@@ -9,6 +9,18 @@
 # General
 #
 
+# Environment variables
+export SECRET_TOKEN="d797b6b05d60415694818e60451ab24f8ea279256715a88642bb9cc865b1093c41ada003e71342d375dfd7d99962b9aef944a6470d8db883108ca0087e6d577f"
+export SECRET_KEY_BASE="cf65816a3a12ec0e9a4bf627951cfecbd0122582bee4c26cfac2517a0881adda0bc31652d0b39b51091f89a83105f3909259ba7326c40092b07e48e405e3dd6c"
+export EMAIL="dillonm662@gmail.com"
+export SENDGRID_USERNAME="app20846540@heroku.com"
+export SENDGRID_PASSWORD="wqdzsgut"
+export RCC_PRIV_BIRCHPAPERANDHOME="6LdH9-0SAAAAADoiIyFYZ6qf-IfIACJ_QDiCpEnc"
+export ANDROID_NDK_ROOT=/home/dillon/android-ndk
+export NDK_ROOT=/home/dillon/android-ndk
+export ANDROID_SDK_ROOT=/home/dillon/Android\ SDK
+export ANT_ROOT=/usr/bin/ant
+
 # Set case-sensitivity for completion, history lookup, etc.
 # zstyle ':prezto:*:*' case-sensitive 'yes'
 
@@ -37,7 +49,12 @@ zstyle ':prezto:load' pmodule \
   'ruby' \
   'rails' \
   'tmux' \
-  'syntax-highlighting'
+  'syntax-highlighting' \
+  'archive' \
+  'command-not-found' \
+  'fasd' \
+  'history-substring-search' \
+  'ssh'
 
 #
 # Editor
