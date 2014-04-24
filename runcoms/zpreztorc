@@ -21,6 +21,10 @@ export NDK_ROOT=/home/dillon/android-ndk
 export ANDROID_SDK_ROOT=/home/dillon/Android\ SDK
 export ANT_ROOT=/usr/bin/ant
 
+# Tmux
+export TERM="screen-256color"
+alias tmux="tmux -2"
+
 # Set case-sensitivity for completion, history lookup, etc.
 # zstyle ':prezto:*:*' case-sensitive 'yes'
 
