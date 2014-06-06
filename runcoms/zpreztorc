@@ -31,6 +31,7 @@ alias tmux="tmux -2"
 
 # Aliases
 alias ccat="pygmentize"
+alias rm="rm -rf"
 
 # Set case-sensitivity for completion, history lookup, etc.
 # zstyle ':prezto:*:*' case-sensitive 'yes'
