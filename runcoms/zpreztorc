@@ -29,6 +29,9 @@ export PATH=$COCOS_CONSOLE_ROOT:$PATH
 export TERM="screen-256color"
 alias tmux="tmux -2"
 
+# Aliases
+alias ccat="pygmentize"
+
 # Set case-sensitivity for completion, history lookup, etc.
 # zstyle ':prezto:*:*' case-sensitive 'yes'
 
