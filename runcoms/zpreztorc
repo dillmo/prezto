@@ -32,8 +32,8 @@ alias tmux="tmux -2"
 # Aliases
 alias ccat="pygmentize"
 alias Rm="rm -rf"
-alias btc="wine ~/Awesomenauts\ Behaviour\ Creator/BehaviourTreeCreator.exe &"
-alias aipkg="~/Awesomenauts\ Behaviour\ Creator/makerelease.sh"
+alias btc="wine ~/Awesomenauts\ Behavior\ Creator/BehaviourTreeCreator.exe &"
+alias aipkg="~/Awesomenauts\ Behavior\ Creator/makerelease.sh"
 
 # Set case-sensitivity for completion, history lookup, etc.
 # zstyle ':prezto:*:*' case-sensitive 'yes'
