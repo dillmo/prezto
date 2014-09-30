@@ -29,6 +29,10 @@ export PATH=$COCOS_CONSOLE_ROOT:$PATH
 export TERM="screen-256color"
 alias tmux="tmux -2"
 
+# Wine
+export WINEPREFIX=$HOME/wineprefixes/steam/
+export WINEARCH=win32
+
 # Aliases
 alias ccat="pygmentize"
 alias Rm="rm -rf"
