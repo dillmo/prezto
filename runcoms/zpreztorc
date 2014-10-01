@@ -35,6 +35,7 @@ alias Rm="rm -rf"
 alias btc="wine ~/Awesomenauts\ Behavior\ Creator/BehaviourTreeCreator.exe &"
 alias aipkg="~/Awesomenauts\ Behavior\ Creator/makerelease.sh"
 alias aiinst="~/Awesomenauts\ Behavior\ Creator/install.sh"
+alias mkfrhw="~/Documents/French\ 3/makehw.sh"
 
 # Set case-sensitivity for completion, history lookup, etc.
 # zstyle ':prezto:*:*' case-sensitive 'yes'
